@@ -2,10 +2,7 @@ let slides;
 let cur = 0;
 window.onload = function () {
     slides = document.querySelectorAll('.testemonial');
-    
-    for (let i = 1; i < slides.length; ++i) {
-        slides[i].classList.add('hidden');
-    }
+    slides[cur].classList.remove('hidden');
 }
 
 
